@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethanysPieShop.View.StackLayoutPage">
+
+    <StackLayout Orientation="Vertical" Spacing="30">
+        <BoxView Color="Green" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Blue" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView HeightRequest="75" Color="red" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+        <Button Text="View basket" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+</ContentPage>

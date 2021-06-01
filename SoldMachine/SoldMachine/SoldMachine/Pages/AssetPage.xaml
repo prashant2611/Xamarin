@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoldMachine.Pages.AssetPage"
+             BackgroundImageSource="HelperPage.gfif">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="machine_name" Placeholder="Enter Machine Name"/>
+            <Button Text="Get Assets"
+                        CornerRadius="50"
+                        Clicked="Get_Assets"
+                        x:Name="GetAsset"
+                       />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

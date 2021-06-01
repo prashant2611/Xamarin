@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethanysPieShop.NavigationPageView">
+    <StackLayout>
+        <Button Text="Home Page" Margin="5" x:Name="HomePageButton" Clicked="HomePageButton_Clicked"/>
+        <Button Text="Pie Overview" Margin="5" x:Name="PieOverViewButton" Clicked="PieOverViewButton_OnClicked"/>
+        <Button Text="Basket" Margin="5" x:Name="BasketButton" Clicked="BasketButton_OnClicked"/>
+        <Button Text="Contact Us" Margin="5" x:Name="ContactUsButton" Clicked="ContactUsButton_OnClicked"/>
+    </StackLayout>
+</ContentPage>

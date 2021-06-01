@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethanysPieShop.PropertyElementSyntaxPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Bethany's Pie Shop"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Green"
+                   Rotation="10"
+                   FontSize="Bold"/>
+
+            <Label>
+                <Label.Text>Welcome to Bethany's Pie Shop.</Label.Text>
+                <Label.VerticalOptions>Center</Label.VerticalOptions>
+                <Label.HorizontalOptions>Center</Label.HorizontalOptions>
+                <Label.HorizontalTextAlignment>Center</Label.HorizontalTextAlignment>
+                <Label.TextColor>Green</Label.TextColor>
+                <Label.Rotation>10</Label.Rotation>
+                <Label.FontSize>Bold</Label.FontSize>
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

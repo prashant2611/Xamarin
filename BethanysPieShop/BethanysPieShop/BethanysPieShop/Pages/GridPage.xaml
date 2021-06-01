@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethanysPieShop.GridPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#f8f4f1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label
+                Text="Welcome to Bethany's Pie Shop"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="Green"
+                FontSize="12"
+                Grid.Row="0" Grid.Column="0"
+                Grid.ColumnSpan="3"/>
+
+            <BoxView Color="#e6e4d9" Grid.Row="1" Grid.Column="0" />
+            <BoxView Color="#e6e4d9" Grid.Row="1" Grid.Column="0" />
+            <BoxView Color="#23cfa7" Grid.Row="1" Grid.Column="1" />
+            <BoxView Color="#e6e4d9" Grid.Row="1" Grid.Column="2" />
+
+            <Label 
+                BackgroundColor="#e6e4d9"
+                Grid.Column="0"
+                Grid.Row="2"
+                Grid.RowSpan="2"
+                Grid.ColumnSpan="3"
+                Text="Cupcake sweet candy liquorice. Sesame snaps halvah jelly halvah sweet caramels toolsite roll dragee. Danish dragee cheesecake biscuit cotton candy cake jelly. Liquoric gummies candy canes donut sweet power sugar plum halvah."/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

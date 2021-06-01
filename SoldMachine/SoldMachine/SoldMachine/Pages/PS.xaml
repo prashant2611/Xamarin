@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoldMachine.Pages.PS"
+             IconImageSource="HelperPage.gfif"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            <Label Text="A. Get the list of Asset names for given machine type."/>
+            <Label Text="B. Get the list of all machine types on which given asset is used."/>
+            <Label Text="C. Get the machine types which are using the latest series of all the assets that it uses."/>
+            <Label Text="Note: if an Asset has only one series, then that series is obviously considered the latest series. "/>
+                         
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

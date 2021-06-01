@@ -1,0 +1,1 @@
+H:\KLINGELNBERG\Training Assignments\Xamarin\BethanysPieShop\BethanysPieShop\BethanysPieShop.UWP\BethanysPieShop.UWP.csproj;x86

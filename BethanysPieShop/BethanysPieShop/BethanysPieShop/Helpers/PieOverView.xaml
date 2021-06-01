@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethanysPieShop.Helpers.PieOverView"
+             Title="Pie"
+             IconImageSource="pie.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Green"
+                   >
+                Pie Overview
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1 @@
+H:\KLINGELNBERG\Training Assignments\Xamarin\Demo\Demo\Demo.UWP\Demo.UWP.csproj;x86

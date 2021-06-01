@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoldMachine.Pages.MachinePage"
+             BackgroundImageSource="HelperPage.gfif">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+
+
+                <Entry x:Name="asset_name" Placeholder="Enter Asset Name"/>
+                <Button Text="Get Machines"
+                        CornerRadius="50"
+                        Clicked="Get_MachineType"
+                        x:Name="GetMachine"
+                       />
+
+                
+                <Button Text="Machine with Letest Asset"
+                        CornerRadius="50"
+                        Clicked="Get_MachineUseLetestAsset"
+                        x:Name="MachineUseLetestAsset"
+                       />
+             
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
